@@ -7,8 +7,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-
+        Take some time to fill out this bug report. Thank you!
+        
   - type: dropdown
     id: type
     attributes:
@@ -29,8 +29,8 @@ body:
   - type: dropdown
     id: subsystem
     attributes:
-      label: What subsystems and features are affected?
-      description: You can pick multiple subsystems and features.
+      label: What subsystems are affected?
+      description: You can pick multiple subsystems.
       multiple: true
       options:
         - Frontend
